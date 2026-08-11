@@ -53,4 +53,7 @@ La API cuenta con las siguientes rutas operativas para realizar operaciones CRUD
 * **Python 3.x**
 * **Flask** (Microframework web)
 * **Gunicorn** (Servidor WSGI para producción)
-
+---
+## Repositorio
+El código fuente de este proyecto se encuentra alojado en GitHub:
+[https://github.com/tu-usuario/nombre-de-tu-repositorio](https://github.com/tu-usuario/nombre-de-tu-repositorio)
