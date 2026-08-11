@@ -1,0 +1,66 @@
+[
+  {
+    "nombre": "Águila Real",
+    "grupo": "Ave",
+    "alimentacion": "Carnívoro",
+    "habitat": "Plaaya",
+    "reproduccion": "Ovíparo",
+    "estado_conservacion": "Preocupación menor"
+  },
+  {
+    "nombre": "Tiburón Blanco",
+    "grupo": "Pez",
+    "alimentacion": "Carnívoro",
+    "habitat": "Acuático",
+    "reproduccion": "Ovovivíparo",
+    "estado_conservacion": "Vulnerable"
+  },
+  {
+    "nombre": "Elefante Asiático",
+    "grupo": "Mamífero",
+    "alimentacion": "Herbívoro",
+    "habitat": "Terrestre",
+    "reproduccion": "Vivíparo",
+    "estado_conservacion": "En peligro"
+  },
+  {
+    "nombre": "Rana Toro",
+    "grupo": "Anfibio",
+    "alimentacion": "Insectívoro",
+    "habitat": "Semiacuático",
+    "reproduccion": "Ovíparo",
+    "estado_conservacion": "Preocupación menor"
+  },
+  {
+    "nombre": "Guepardo",
+    "grupo": "Mamífero",
+    "alimentacion": "Carnívoro",
+    "habitat": "Terrestre",
+    "reproduccion": "Vivíparo",
+    "estado_conservacion": "Vulnerable"
+  },
+  {
+    "nombre": "Oso Polar",
+    "grupo": "Mamífero",
+    "alimentacion": "Carnívoro",
+    "habitat": "Terrestre / Acuático",
+    "reproduccion": "Vivíparo",
+    "estado_conservacion": "No vulnerable"
+  },
+  {
+    "nombre": "Panda Gigante",
+    "grupo": "Mamífero",
+    "alimentacion": "Herbívoro",
+    "habitat": "Terrestre",
+    "reproduccion": "Vivíparo",
+    "estado_conservacion": "Vulnerable"
+  },
+  {
+    "alimentacion": "Carnívoro",
+    "estado_conservacion": "En peligro",
+    "grupo": "Mamífero",
+    "habitat": "Terrestre",
+    "nombre": "Tigre",
+    "reproduccion": "Vivíparo"
+  }
+]
