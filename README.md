@@ -1,9 +1,9 @@
 # API REST Flask y Render - Registro de Animales
 
-API REST desarrollada con **Python** y el microframework **Flask**, diseñada para la gestión de registros de animales utilizando un archivo local en formato JSON como base de datos. Se encuentra desplegada en la nube mediante **Render**.
+API REST desarrollada con Python y el microframework Flask, diseñada para la gestión de registros de animales utilizando un archivo local en formato JSON como base de datos. Se encuentra desplegada en la nube mediante Render.
 
 ## URL Pública de la API
-* **Base URL:** `https://api-animales-flask.onrender.com`
+* **Base URL:** https://api-animales-flask.onrender.com
 
 ---
 
@@ -25,6 +25,17 @@ La API cuenta con las siguientes rutas operativas para realizar operaciones CRUD
    * **URL:** `/animals`
    * **Método:** `POST`
    * **Descripción:** Registra un nuevo elemento enviando un objeto JSON en el cuerpo de la petición.
+   * **Ejemplo de Body (JSON):**
+     ```json
+     {
+       "nombre": "León",
+       "grupo": "Mamífero",
+       "alimentacion": "Carnívoro",
+       "habitat": "Terrestre",
+       "reproduccion": "Vivíparo",
+       "estado_conservacion": "Vulnerable"
+     }
+     ```
 
 4. **Actualizar un animal**
    * **URL:** `/animals/<nombre>`
@@ -34,7 +45,7 @@ La API cuenta con las siguientes rutas operativas para realizar operaciones CRUD
 5. **Eliminar un animal**
    * **URL:** `/animals/<nombre>`
    * **Método:** `DELETE`
-   * **Descripción:** Remueve un animal del sistema mediante su identificador/nombre.
+   * **Descripción:** Remueve un animal del sistema mediante su identificador o nombre.
 
 ---
 
@@ -42,3 +53,4 @@ La API cuenta con las siguientes rutas operativas para realizar operaciones CRUD
 * **Python 3.x**
 * **Flask** (Microframework web)
 * **Gunicorn** (Servidor WSGI para producción)
+
