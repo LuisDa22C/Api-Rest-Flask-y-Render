@@ -56,4 +56,4 @@ La API cuenta con las siguientes rutas operativas para realizar operaciones CRUD
 ---
 ## Repositorio
 El código fuente de este proyecto se encuentra alojado en GitHub:
-[https://github.com/tu-usuario/nombre-de-tu-repositorio](https://github.com/tu-usuario/nombre-de-tu-repositorio)
+(https://github.com/LuisDa22C/Api-Rest-Flask-y-Render)
